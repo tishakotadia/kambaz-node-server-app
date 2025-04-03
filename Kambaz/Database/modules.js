@@ -1,626 +1,548 @@
-export default [
+export default[
     {
       "_id": "M101",
-      "name": "Introduction to Rocket Propulsion",
-      "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS101",
+      "name": "Introduction to React",
+      "description": "Basic principles of React and its components.",
+      "course": "1234",
       "lessons": [
         {
           "_id": "L101",
-          "name": "History of Rocketry",
-          "description": "A brief history of rocketry and space exploration.",
+          "name": "React Basics",
+          "description": "Introduction to React and its basic concepts.",
           "module": "M101"
         },
         {
           "_id": "L102",
-          "name": "Rocket Propulsion Fundamentals",
-          "description": "Basic principles of rocket propulsion.",
+          "name": "React Components",
+          "description": "Understanding React components and their lifecycle.",
           "module": "M101"
         },
         {
           "_id": "L103",
-          "name": "Rocket Engine Types",
-          "description": "Overview of different types of rocket engines.",
+          "name": "React State and Props",
+          "description": "Managing state and props in React.",
           "module": "M101"
         }
       ]
     },
     {
       "_id": "M102",
-      "name": "Fuel and Combustion",
-      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
-      "course": "RS101",
+      "name": "Advanced React",
+      "description": "Advanced concepts in React including hooks and context.",
+      "course": "1234",
       "lessons": [
         {
           "_id": "L201",
-          "name": "Rocket Fuel",
-          "description": "Overview of different types of rocket fuels.",
+          "name": "React Hooks",
+          "description": "Introduction to React hooks and their usage.",
           "module": "M102"
         },
         {
           "_id": "L202",
-          "name": "Combustion Processes",
-          "description": "Understanding combustion processes and efficiency.",
+          "name": "React Context",
+          "description": "Understanding React context for state management.",
           "module": "M102"
         },
         {
           "_id": "L203",
-          "name": "Combustion Instability",
-          "description": "Understanding combustion instability and mitigation.",
+          "name": "React Performance",
+          "description": "Optimizing performance in React applications.",
           "module": "M102"
         }
       ]
     },
     {
       "_id": "M103",
-      "name": "Nozzle Design",
-      "description": "Principles of rocket nozzle design and performance optimization.",
-      "course": "RS101",
+      "name": "React Router",
+      "description": "Implementing routing in React applications using React Router.",
+      "course": "1234",
       "lessons": [
         {
           "_id": "L301",
-          "name": "Nozzle Design",
-          "description": "Overview of different types of rocket nozzles.",
+          "name": "React Router Basics",
+          "description": "Introduction to React Router and its basic concepts.",
           "module": "M103"
         },
         {
           "_id": "L302",
-          "name": "Nozzle Performance",
-          "description": "Understanding nozzle performance and efficiency.",
+          "name": "Nested Routes",
+          "description": "Understanding nested routes in React Router.",
           "module": "M103"
         },
         {
           "_id": "L303",
-          "name": "Nozzle Optimization",
-          "description": "Optimizing nozzle design for specific applications.",
+          "name": "Route Guards",
+          "description": "Implementing route guards in React Router.",
           "module": "M103"
         }
       ]
     },
     {
-       "_id": "M201",
-        "name": "Fundamentals of Aerodynamics",
-        "description": "Basic aerodynamic concepts and fluid dynamics principles.",
-        "course": "RS102",
-        "lessons": [
-            {
-                "_id": "L401",
-                "name": "Basic Fluid Dynamics",
-                "description": "Introduction to fluid dynamics and aerodynamics principles.",
-                "module": "M201"
-            },
-            {
-                "_id": "L402",
-                "name": "Airfoil Theory",
-                "description": "Understanding airfoil shapes and their aerodynamic properties.",
-                "module": "M201"
-            },
-            {
-                "_id": "L403",
-                "name": "Forces on an Aircraft",
-                "description": "Analysis of lift, drag, and thrust forces in aerodynamics.",
-                "module": "M201"
-            }
-        ]
+      "_id": "M201",
+      "name": "Node.js Basics",
+      "description": "Introduction to Node.js and its core modules.",
+      "course": "1235",
+      "lessons": [
+        {
+          "_id": "L401",
+          "name": "Node.js Introduction",
+          "description": "Introduction to Node.js and its environment.",
+          "module": "M201"
+        },
+        {
+          "_id": "L402",
+          "name": "Node.js Modules",
+          "description": "Understanding Node.js modules and their usage.",
+          "module": "M201"
+        },
+        {
+          "_id": "L403",
+          "name": "Node.js File System",
+          "description": "Working with the file system in Node.js.",
+          "module": "M201"
+        }
+      ]
     },
     {
       "_id": "M202",
-        "name": "Subsonic and Supersonic Flow",
-        "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
-        "course": "RS102",
-        "lessons": [
-            {
-                "_id": "L501",
-                "name": "Subsonic Flow",
-                "description": "Characteristics and behaviors of subsonic flow.",
-                "module": "M202"
-            },
-            {
-                "_id": "L502",
-                "name": "Supersonic Flow",
-                "description": "Understanding shock waves and high-speed aerodynamics.",
-                "module": "M202"
-            },
-            {
-                "_id": "L503",
-                "name": "Transonic and Hypersonic Regimes",
-                "description": "Exploring the transition from subsonic to supersonic speeds and beyond.",
-                "module": "M202"
-            }
-        ]
+      "name": "Express.js",
+      "description": "Building web applications using Express.js.",
+      "course": "1235",
+      "lessons": [
+        {
+          "_id": "L501",
+          "name": "Express.js Basics",
+          "description": "Introduction to Express.js and its basic concepts.",
+          "module": "M202"
+        },
+        {
+          "_id": "L502",
+          "name": "Express.js Routing",
+          "description": "Implementing routing in Express.js applications.",
+          "module": "M202"
+        },
+        {
+          "_id": "L503",
+          "name": "Express.js Middleware",
+          "description": "Understanding and using middleware in Express.js.",
+          "module": "M202"
+        }
+      ]
     },
     {
       "_id": "M203",
-        "name": "Aerodynamic Heating",
-        "description": "Study of aerodynamic heating and thermal protection systems.",
-        "course": "RS102",
-        "lessons": [
-            {
-                "_id": "L601",
-                "name": "Heat Transfer Mechanisms",
-                "description": "Understanding conduction, convection, and radiation in aerospace environments.",
-                "module": "M203"
-            },
-            {
-                "_id": "L602",
-                "name": "Thermal Protection Systems",
-                "description": "Materials and design considerations for protecting spacecraft from heat.",
-                "module": "M203"
-            },
-            {
-                "_id": "L603",
-                "name": "Reentry Heating",
-                "description": "Analyzing the heating effects during atmospheric reentry.",
-                "module": "M203"
-            }
-        ]
+      "name": "Node.js and Databases",
+      "description": "Connecting Node.js applications to databases.",
+      "course": "1235",
+      "lessons": [
+        {
+          "_id": "L601",
+          "name": "Database Basics",
+          "description": "Introduction to databases and their concepts.",
+          "module": "M203"
+        },
+        {
+          "_id": "L602",
+          "name": "Connecting to Databases",
+          "description": "Connecting Node.js applications to databases.",
+          "module": "M203"
+        },
+        {
+          "_id": "L603",
+          "name": "CRUD Operations",
+          "description": "Performing CRUD operations with Node.js and databases.",
+          "module": "M203"
+        }
+      ]
     },
     {
       "_id": "M301",
-        "name": "Spacecraft Structural Design",
-        "description": "Fundamentals of designing spacecraft structures and materials selection.",
-        "course": "RS103",
-        "lessons": [
-            {
-                "_id": "L701",
-                "name": "Structural Materials",
-                "description": "Common materials used in spacecraft construction.",
-                "module": "M301"
-            },
-            {
-                "_id": "L702",
-                "name": "Load and Stress Analysis",
-                "description": "Understanding forces acting on spacecraft structures.",
-                "module": "M301"
-            },
-            {
-                "_id": "L703",
-                "name": "Lightweight Structural Design",
-                "description": "Optimizing spacecraft structures for weight reduction.",
-                "module": "M301"
-            }
-        ]
+      "name": "Angular Basics",
+      "description": "Introduction to Angular and its core concepts.",
+      "course": "1236",
+      "lessons": [
+        {
+          "_id": "L701",
+          "name": "Angular Introduction",
+          "description": "Introduction to Angular and its environment.",
+          "module": "M301"
+        },
+        {
+          "_id": "L702",
+          "name": "Angular Components",
+          "description": "Understanding Angular components and their lifecycle.",
+          "module": "M301"
+        },
+        {
+          "_id": "L703",
+          "name": "Angular Services",
+          "description": "Building and using services in Angular.",
+          "module": "M301"
+        }
+      ]
     },
     {
       "_id": "M302",
-        "name": "Orbital Mechanics",
-        "description": "Understanding orbital dynamics and mission planning.",
-        "course": "RS103",
-        "lessons": [
-            {
-                "_id": "L801",
-                "name": "Orbital Elements",
-                "description": "Understanding the fundamental parameters of an orbit.",
-                "module": "M302"
-            },
-            {
-                "_id": "L802",
-                "name": "Orbital Transfers and Maneuvers",
-                "description": "Exploring Hohmann transfers and other orbital maneuvers.",
-                "module": "M302"
-            },
-            {
-                "_id": "L803",
-                "name": "Mission Planning",
-                "description": "Planning space missions based on orbital mechanics principles.",
-                "module": "M302"
-            }
-        ]
+      "name": "Angular Components",
+      "description": "Understanding Angular components and their lifecycle.",
+      "course": "1236",
+      "lessons": [
+        {
+          "_id": "L801",
+          "name": "Component Basics",
+          "description": "Introduction to Angular components.",
+          "module": "M302"
+        },
+        {
+          "_id": "L802",
+          "name": "Component Interaction",
+          "description": "Interaction between Angular components.",
+          "module": "M302"
+        },
+        {
+          "_id": "L803",
+          "name": "Component Lifecycle",
+          "description": "Understanding the lifecycle of Angular components.",
+          "module": "M302"
+        }
+      ]
     },
     {
       "_id": "M303",
-        "name": "Spacecraft Systems Engineering",
-        "description": "Overview of spacecraft systems and subsystems engineering.",
-        "course": "RS103",
-        "lessons": [
-            {
-                "_id": "L901",
-                "name": "Power and Thermal Systems",
-                "description": "Design and management of spacecraft power and thermal systems.",
-                "module": "M303"
-            },
-            {
-                "_id": "L902",
-                "name": "Communication and Control Systems",
-                "description": "Understanding spacecraft communication and attitude control systems.",
-                "module": "M303"
-            },
-            {
-                "_id": "L903",
-                "name": "System Integration and Testing",
-                "description": "Ensuring proper integration and testing of spacecraft systems.",
-                "module": "M303"
-            }
-        ]
+      "name": "Angular Services",
+      "description": "Building and using services in Angular.",
+      "course": "1236",
+      "lessons": [
+        {
+          "_id": "L901",
+          "name": "Service Basics",
+          "description": "Introduction to Angular services.",
+          "module": "M303"
+        },
+        {
+          "_id": "L902",
+          "name": "Dependency Injection",
+          "description": "Understanding dependency injection in Angular.",
+          "module": "M303"
+        },
+        {
+          "_id": "L903",
+          "name": "Service Usage",
+          "description": "Using services in Angular applications.",
+          "module": "M303"
+        }
+      ]
     },
     {
       "_id": "M401",
-      "name": "Fundamentals of Organic Chemistry",
-      "description": "Introduction to organic compounds and their reactions.",
-      "course": "RS104",
+      "name": "Introduction to Flask",
+      "description": "Basic principles of Flask and its components.",
+      "course": "1237",
       "lessons": [
         {
           "_id": "L1001",
-          "name": "Hydrocarbons and Functional Groups",
-          "description": "Understanding hydrocarbons and key functional groups in organic chemistry.",
+          "name": "Flask Basics",
+          "description": "Introduction to Flask and its environment.",
           "module": "M401"
         },
         {
           "_id": "L1002",
-          "name": "Stereochemistry",
-          "description": "Exploring isomerism and three-dimensional molecular structures.",
+          "name": "Flask Routing",
+          "description": "Implementing routing in Flask applications.",
           "module": "M401"
         },
         {
           "_id": "L1003",
-          "name": "Organic Reaction Mechanisms",
-          "description": "Studying reaction pathways and mechanisms in organic chemistry.",
+          "name": "Flask Templates",
+          "description": "Using templates in Flask applications.",
           "module": "M401"
         }
       ]
     },
     {
       "_id": "M402",
-      "name": "Fundamentals of Organic Chemistry",
-      "description": "Introduction to organic compounds and their reactions.",
-      "course": "RS104",
+      "name": "Flask Routing",
+      "description": "Implementing routing in Flask applications.",
+      "course": "1237",
       "lessons": [
         {
           "_id": "L1101",
-          "name": "Hydrocarbons and Functional Groups",
-          "description": "Understanding hydrocarbons and key functional groups in organic chemistry.",
+          "name": "Routing Basics",
+          "description": "Introduction to routing in Flask.",
           "module": "M402"
         },
         {
           "_id": "L1102",
-          "name": "Stereochemistry",
-          "description": "Exploring isomerism and three-dimensional molecular structures.",
+          "name": "Dynamic Routing",
+          "description": "Implementing dynamic routing in Flask.",
           "module": "M402"
         },
         {
           "_id": "L1103",
-          "name": "Organic Reaction Mechanisms",
-          "description": "Studying reaction pathways and mechanisms in organic chemistry.",
+          "name": "Route Guards",
+          "description": "Implementing route guards in Flask.",
           "module": "M402"
         }
       ]
     },
     {
       "_id": "M403",
-      "name": "Fundamentals of Organic Chemistry",
-      "description": "Introduction to organic compounds and their reactions.",
-      "course": "RS104",
+      "name": "Flask and Databases",
+      "description": "Connecting Flask applications to databases.",
+      "course": "1237",
       "lessons": [
         {
           "_id": "L1201",
-          "name": "Hydrocarbons and Functional Groups",
-          "description": "Understanding hydrocarbons and key functional groups in organic chemistry.",
+          "name": "Database Basics",
+          "description": "Introduction to databases and their concepts.",
           "module": "M403"
         },
         {
           "_id": "L1202",
-          "name": "Stereochemistry",
-          "description": "Exploring isomerism and three-dimensional molecular structures.",
+          "name": "Connecting to Databases",
+          "description": "Connecting Flask applications to databases.",
           "module": "M403"
         },
         {
           "_id": "L1203",
-          "name": "Organic Reaction Mechanisms",
-          "description": "Studying reaction pathways and mechanisms in organic chemistry.",
+          "name": "CRUD Operations",
+          "description": "Performing CRUD operations with Flask and databases.",
           "module": "M403"
         }
       ]
     },
     {
       "_id": "M501",
-      "name": "Inorganic Chemistry Principles",
-      "description": "Exploring coordination chemistry and bonding theories.",
-      "course": "RS105",
+      "name": "JavaScript Basics",
+      "description": "Introduction to JavaScript and its basic concepts.",
+      "course": "1238",
       "lessons": [
         {
           "_id": "L1301",
-          "name": "Coordination Chemistry",
-          "description": "Understanding metal complexes and ligand interactions.",
+          "name": "JavaScript Introduction",
+          "description": "Introduction to JavaScript and its environment.",
           "module": "M501"
         },
         {
           "_id": "L1302",
-          "name": "Crystal Field Theory",
-          "description": "Analyzing the effect of ligands on metal d-orbitals.",
+          "name": "JavaScript Syntax",
+          "description": "Understanding JavaScript syntax and basic concepts.",
           "module": "M501"
         },
         {
           "_id": "L1303",
-          "name": "Bioinorganic Chemistry",
-          "description": "Exploring the role of metals in biological systems.",
+          "name": "JavaScript Functions",
+          "description": "Working with functions in JavaScript.",
           "module": "M501"
         }
       ]
     },
     {
       "_id": "M502",
-      "name": "Inorganic Chemistry Principles",
-      "description": "Exploring coordination chemistry and bonding theories.",
-      "course": "RS105",
+      "name": "JavaScript DOM Manipulation",
+      "description": "Manipulating the DOM using JavaScript.",
+      "course": "1238",
       "lessons": [
         {
           "_id": "L1401",
-          "name": "Coordination Chemistry",
-          "description": "Understanding metal complexes and ligand interactions.",
+          "name": "DOM Basics",
+          "description": "Introduction to the Document Object Model (DOM).",
           "module": "M502"
         },
         {
           "_id": "L1402",
-          "name": "Crystal Field Theory",
-          "description": "Analyzing the effect of ligands on metal d-orbitals.",
+          "name": "DOM Manipulation",
+          "description": "Manipulating the DOM using JavaScript.",
           "module": "M502"
         },
         {
           "_id": "L1403",
-          "name": "Bioinorganic Chemistry",
-          "description": "Exploring the role of metals in biological systems.",
+          "name": "Event Handling",
+          "description": "Handling events in JavaScript.",
           "module": "M502"
         }
       ]
     },
     {
       "_id": "M503",
-      "name": "Inorganic Chemistry Principles",
-      "description": "Exploring coordination chemistry and bonding theories.",
-      "course": "RS105",
+      "name": "JavaScript and AJAX",
+      "description": "Using AJAX to fetch data in JavaScript.",
+      "course": "1238",
       "lessons": [
         {
           "_id": "L1501",
-          "name": "Coordination Chemistry",
-          "description": "Understanding metal complexes and ligand interactions.",
+          "name": "AJAX Basics",
+          "description": "Introduction to AJAX and its concepts.",
           "module": "M503"
         },
         {
           "_id": "L1502",
-          "name": "Crystal Field Theory",
-          "description": "Analyzing the effect of ligands on metal d-orbitals.",
+          "name": "AJAX Requests",
+          "description": "Making AJAX requests using JavaScript.",
           "module": "M503"
         },
         {
           "_id": "L1503",
-          "name": "Bioinorganic Chemistry",
-          "description": "Exploring the role of metals in biological systems.",
+          "name": "Handling Responses",
+          "description": "Handling AJAX responses in JavaScript.",
           "module": "M503"
         }
       ]
     },
     {
       "_id": "M601",
-      "name": "Physical Chemistry Foundations",
-      "description": "Studying thermodynamics, kinetics, and quantum mechanics.",
-      "course": "RS106",
+      "name": "Introduction to Next.js",
+      "description": "Basic principles of Next.js and its components.",
+      "course": "1239",
       "lessons": [
         {
           "_id": "L1601",
-          "name": "Thermodynamics in Chemistry",
-          "description": "Understanding energy, entropy, and equilibrium.",
+          "name": "Next.js Basics",
+          "description": "Introduction to Next.js and its environment.",
           "module": "M601"
         },
         {
           "_id": "L1602",
-          "name": "Chemical Kinetics",
-          "description": "Exploring reaction rates and mechanisms.",
+          "name": "Next.js Pages",
+          "description": "Creating pages in Next.js.",
           "module": "M601"
         },
         {
           "_id": "L1603",
-          "name": "Quantum Mechanics in Chemistry",
-          "description": "Applying quantum theory to molecular structures and bonding.",
+          "name": "Next.js Components",
+          "description": "Understanding components in Next.js.",
           "module": "M601"
         }
       ]
     },
     {
       "_id": "M602",
-      "name": "Physical Chemistry Foundations",
-      "description": "Studying thermodynamics, kinetics, and quantum mechanics.",
-      "course": "RS106",
+      "name": "Next.js Routing",
+      "description": "Implementing routing in Next.js applications.",
+      "course": "1239",
       "lessons": [
         {
           "_id": "L1701",
-          "name": "Thermodynamics in Chemistry",
-          "description": "Understanding energy, entropy, and equilibrium.",
+          "name": "Routing Basics",
+          "description": "Introduction to routing in Next.js.",
           "module": "M602"
         },
         {
           "_id": "L1702",
-          "name": "Chemical Kinetics",
-          "description": "Exploring reaction rates and mechanisms.",
+          "name": "Dynamic Routing",
+          "description": "Implementing dynamic routing in Next.js.",
           "module": "M602"
         },
         {
           "_id": "L1703",
-          "name": "Quantum Mechanics in Chemistry",
-          "description": "Applying quantum theory to molecular structures and bonding.",
+          "name": "API Routes",
+          "description": "Creating API routes in Next.js.",
           "module": "M602"
         }
       ]
     },
     {
       "_id": "M603",
-      "name": "Physical Chemistry Foundations",
-      "description": "Studying thermodynamics, kinetics, and quantum mechanics.",
-      "course": "RS106",
+      "name": "Next.js and APIs",
+      "description": "Connecting Next.js applications to APIs.",
+      "course": "1239",
       "lessons": [
         {
           "_id": "L1801",
-          "name": "Thermodynamics in Chemistry",
-          "description": "Understanding energy, entropy, and equilibrium.",
+          "name": "API Basics",
+          "description": "Introduction to APIs and their usage.",
           "module": "M603"
         },
         {
           "_id": "L1802",
-          "name": "Chemical Kinetics",
-          "description": "Exploring reaction rates and mechanisms.",
+          "name": "Fetching Data",
+          "description": "Fetching data from APIs in Next.js.",
           "module": "M603"
         },
         {
           "_id": "L1803",
-          "name": "Quantum Mechanics in Chemistry",
-          "description": "Applying quantum theory to molecular structures and bonding.",
+          "name": "Handling Responses",
+          "description": "Handling API responses in Next.js.",
           "module": "M603"
         }
       ]
     },
     {
       "_id": "M701",
-      "name": "Languages of Middle-earth",
-      "description": "Exploring the linguistic structure of Elvish, Dwarvish, and the Black Speech.",
-      "course": "RS107",
+      "name": "Python Basics",
+      "description": "Introduction to Python and its basic concepts.",
+      "course": "1240",
       "lessons": [
         {
           "_id": "L1901",
-          "name": "Elvish Language and Grammar",
-          "description": "Understanding Sindarin and Quenya phonetics and syntax.",
+          "name": "Python Introduction",
+          "description": "Introduction to Python and its environment.",
           "module": "M701"
         },
         {
           "_id": "L1902",
-          "name": "Dwarvish and Runes",
-          "description": "Examining Khuzdul and the Cirth script.",
+          "name": "Python Syntax",
+          "description": "Understanding Python syntax and basic concepts.",
           "module": "M701"
         },
         {
           "_id": "L1903",
-          "name": "The Black Speech of Mordor",
-          "description": "Analyzing the structure and function of Sauron's language.",
+          "name": "Python Functions",
+          "description": "Working with functions in Python.",
           "module": "M701"
         }
       ]
     },
     {
       "_id": "M702",
-      "name": "Languages of Middle-earth",
-      "description": "Exploring the linguistic structure of Elvish, Dwarvish, and the Black Speech.",
-      "course": "RS107",
+      "name": "Python Data Structures",
+      "description": "Understanding data structures in Python.",
+      "course": "1240",
       "lessons": [
         {
           "_id": "L2001",
-          "name": "Elvish Language and Grammar",
-          "description": "Understanding Sindarin and Quenya phonetics and syntax.",
+          "name": "Data Structures Basics",
+          "description": "Introduction to data structures in Python.",
           "module": "M702"
         },
         {
           "_id": "L2002",
-          "name": "Dwarvish and Runes",
-          "description": "Examining Khuzdul and the Cirth script.",
+          "name": "Lists and Tuples",
+          "description": "Working with lists and tuples in Python.",
           "module": "M702"
         },
         {
           "_id": "L2003",
-          "name": "The Black Speech of Mordor",
-          "description": "Analyzing the structure and function of Sauron's language.",
+          "name": "Dictionaries and Sets",
+          "description": "Understanding dictionaries and sets in Python.",
           "module": "M702"
         }
       ]
     },
     {
       "_id": "M703",
-      "name": "Languages of Middle-earth",
-      "description": "Exploring the linguistic structure of Elvish, Dwarvish, and the Black Speech.",
-      "course": "RS107",
+      "name": "Python and Databases",
+      "description": "Connecting Python applications to databases.",
+      "course": "1240",
       "lessons": [
         {
           "_id": "L2101",
-          "name": "Elvish Language and Grammar",
-          "description": "Understanding Sindarin and Quenya phonetics and syntax.",
+          "name": "Database Basics",
+          "description": "Introduction to databases and their concepts.",
           "module": "M703"
         },
         {
           "_id": "L2102",
-          "name": "Dwarvish and Runes",
-          "description": "Examining Khuzdul and the Cirth script.",
+          "name": "Connecting to Databases",
+          "description": "Connecting Python applications to databases.",
           "module": "M703"
         },
         {
           "_id": "L2103",
-          "name": "The Black Speech of Mordor",
-          "description": "Analyzing the structure and function of Sauron's language.",
+          "name": "CRUD Operations",
+          "description": "Performing CRUD operations with Python and databases.",
           "module": "M703"
         }
       ]
-    },
-    {
-      "_id": "M801",
-      "name": "Inter-species Diplomacy in Middle-earth",
-      "description": "Studying historical alliances and conflicts among Middle-earth races.",
-      "course": "RS108",
-      "lessons": [
-        {
-          "_id": "L2201",
-          "name": "Elves and Men: The First Alliances",
-          "description": "Exploring early interactions and treaties.",
-          "module": "M801"
-        },
-        {
-          "_id": "L2202",
-          "name": "Dwarves and Elves: A History of Conflict",
-          "description": "Understanding tensions and cooperation over the ages.",
-          "module": "M801"
-        },
-        {
-          "_id": "L2203",
-          "name": "The Role of Wizards in Middle-earth Diplomacy",
-          "description": "Examining Gandalf and Saruman's influence in inter-species relations.",
-          "module": "M801"
-        }
-      ]
-    },
-    {
-      "_id": "M802",
-      "name": "Inter-species Diplomacy in Middle-earth",
-      "description": "Studying historical alliances and conflicts among Middle-earth races.",
-      "course": "RS108",
-      "lessons": [
-        {
-          "_id": "L2301",
-          "name": "Elves and Men: The First Alliances",
-          "description": "Exploring early interactions and treaties.",
-          "module": "M802"
-        },
-        {
-          "_id": "L2302",
-          "name": "Dwarves and Elves: A History of Conflict",
-          "description": "Understanding tensions and cooperation over the ages.",
-          "module": "M802"
-        },
-        {
-          "_id": "L2303",
-          "name": "The Role of Wizards in Middle-earth Diplomacy",
-          "description": "Examining Gandalf and Saruman's influence in inter-species relations.",
-          "module": "M802"
-        }
-      ]
-    },
-    {
-      "_id": "M803",
-      "name": "Inter-species Diplomacy in Middle-earth",
-      "description": "Studying historical alliances and conflicts among Middle-earth races.",
-      "course": "RS108",
-      "lessons": [
-        {
-          "_id": "L2401",
-          "name": "Elves and Men: The First Alliances",
-          "description": "Exploring early interactions and treaties.",
-          "module": "M803"
-        },
-        {
-          "_id": "L2402",
-          "name": "Dwarves and Elves: A History of Conflict",
-          "description": "Understanding tensions and cooperation over the ages.",
-          "module": "M803"
-        },
-        {
-          "_id": "L2403",
-          "name": "The Role of Wizards in Middle-earth Diplomacy",
-          "description": "Examining Gandalf and Saruman's influence in inter-species relations.",
-          "module": "M803"
-        }
-      ]
     }
-  ];
+  ]
