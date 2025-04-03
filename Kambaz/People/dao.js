@@ -9,6 +9,5 @@ export function findModulesForCourse(courseId) {
     const user = users.find((u) => u._id == e.user);
     return { ...user, enrollmentId: e._id };
   }); 
-  console.log("enrolledUsers", enrolledUsers);
   return enrolledUsers;
 }
