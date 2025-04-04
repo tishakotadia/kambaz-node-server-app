@@ -1,312 +1,312 @@
 export default[
     {
       "_id": "M101",
-      "name": "Introduction to React",
-      "description": "Basic principles of React and its components.",
+      "name": "Introduction to Rocket Propulsion",
+      "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "1234",
       "lessons": [
         {
           "_id": "L101",
-          "name": "React Basics",
-          "description": "Introduction to React and its basic concepts.",
+          "name": "History of Rocketry",
+          "description": "A brief history of rocketry and space exploration.",
           "module": "M101"
         },
         {
           "_id": "L102",
-          "name": "React Components",
-          "description": "Understanding React components and their lifecycle.",
+          "name": "Rocket Propulsion Fundamentals",
+          "description": "Basic principles of rocket propulsion.",
           "module": "M101"
         },
         {
           "_id": "L103",
-          "name": "React State and Props",
-          "description": "Managing state and props in React.",
+          "name": "Rocket Engine Types",
+          "description": "Overview of different types of rocket engines.",
           "module": "M101"
         }
       ]
-    },
+    }, 
     {
       "_id": "M102",
-      "name": "Advanced React",
-      "description": "Advanced concepts in React including hooks and context.",
+      "name": "Fuel and Combustion",
+      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "1234",
       "lessons": [
         {
           "_id": "L201",
-          "name": "React Hooks",
-          "description": "Introduction to React hooks and their usage.",
+          "name": "Rocket Fuel",
+          "description": "Overview of different types of rocket fuels.",
           "module": "M102"
         },
         {
           "_id": "L202",
-          "name": "React Context",
-          "description": "Understanding React context for state management.",
+          "name": "Combustion Processes",
+          "description": "Understanding combustion processes and efficiency.",
           "module": "M102"
         },
         {
           "_id": "L203",
-          "name": "React Performance",
-          "description": "Optimizing performance in React applications.",
+          "name": "Combustion Instability",
+          "description": "Understanding combustion instability and mitigation.",
           "module": "M102"
         }
       ]
     },
     {
       "_id": "M103",
-      "name": "React Router",
-      "description": "Implementing routing in React applications using React Router.",
+      "name": "Nozzle Design",
+      "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "1234",
       "lessons": [
         {
           "_id": "L301",
-          "name": "React Router Basics",
-          "description": "Introduction to React Router and its basic concepts.",
+          "name": "Nozzle Design",
+          "description": "Overview of different types of rocket nozzles.",
           "module": "M103"
         },
         {
           "_id": "L302",
-          "name": "Nested Routes",
-          "description": "Understanding nested routes in React Router.",
+          "name": "Nozzle Performance",
+          "description": "Understanding nozzle performance and efficiency.",
           "module": "M103"
         },
         {
           "_id": "L303",
-          "name": "Route Guards",
-          "description": "Implementing route guards in React Router.",
+          "name": "Nozzle Optimization",
+          "description": "Optimizing nozzle design for specific applications.",
           "module": "M103"
         }
       ]
     },
     {
       "_id": "M201",
-      "name": "Node.js Basics",
-      "description": "Introduction to Node.js and its core modules.",
+      "name": "Fundamentals of Aerodynamics",
+      "description": "Basic aerodynamic concepts and fluid dynamics principles.",
       "course": "1235",
       "lessons": [
         {
           "_id": "L401",
-          "name": "Node.js Introduction",
-          "description": "Introduction to Node.js and its environment.",
+          "name": "Basic Fluid Dynamics",
+          "description": "Introduction to fluid dynamics and aerodynamics principles.",
           "module": "M201"
         },
         {
           "_id": "L402",
-          "name": "Node.js Modules",
-          "description": "Understanding Node.js modules and their usage.",
+          "name": "Airfoil Theory",
+          "description": "Understanding airfoil shapes and their aerodynamic properties.",
           "module": "M201"
         },
         {
           "_id": "L403",
-          "name": "Node.js File System",
-          "description": "Working with the file system in Node.js.",
+          "name": "Forces on an Aircraft",
+          "description": "Analysis of lift, drag, and thrust forces in aerodynamics.",
           "module": "M201"
         }
       ]
     },
     {
       "_id": "M202",
-      "name": "Express.js",
-      "description": "Building web applications using Express.js.",
+      "name": "Fundamentals of Aerodynamics",
+      "description": "Basic aerodynamic concepts and fluid dynamics principles.",
       "course": "1235",
       "lessons": [
         {
           "_id": "L501",
-          "name": "Express.js Basics",
-          "description": "Introduction to Express.js and its basic concepts.",
+          "name": "Basic Fluid Dynamics",
+          "description": "Introduction to fluid dynamics and aerodynamics principles.",
           "module": "M202"
         },
         {
           "_id": "L502",
-          "name": "Express.js Routing",
-          "description": "Implementing routing in Express.js applications.",
+          "name": "Airfoil Theory",
+          "description": "Understanding airfoil shapes and their aerodynamic properties.",
           "module": "M202"
         },
         {
           "_id": "L503",
-          "name": "Express.js Middleware",
-          "description": "Understanding and using middleware in Express.js.",
+          "name": "Forces on an Aircraft",
+          "description": "Analysis of lift, drag, and thrust forces in aerodynamics.",
           "module": "M202"
         }
       ]
     },
     {
       "_id": "M203",
-      "name": "Node.js and Databases",
-      "description": "Connecting Node.js applications to databases.",
+      "name": "Fundamentals of Aerodynamics",
+      "description": "Basic aerodynamic concepts and fluid dynamics principles.",
       "course": "1235",
       "lessons": [
         {
           "_id": "L601",
-          "name": "Database Basics",
-          "description": "Introduction to databases and their concepts.",
+          "name": "Basic Fluid Dynamics",
+          "description": "Introduction to fluid dynamics and aerodynamics principles.",
           "module": "M203"
         },
         {
           "_id": "L602",
-          "name": "Connecting to Databases",
-          "description": "Connecting Node.js applications to databases.",
+         "name": "Airfoil Theory",
+          "description": "Understanding airfoil shapes and their aerodynamic properties.",
           "module": "M203"
         },
         {
           "_id": "L603",
-          "name": "CRUD Operations",
-          "description": "Performing CRUD operations with Node.js and databases.",
+          "name": "Forces on an Aircraft",
+          "description": "Analysis of lift, drag, and thrust forces in aerodynamics.",
           "module": "M203"
         }
       ]
     },
     {
       "_id": "M301",
-      "name": "Angular Basics",
-      "description": "Introduction to Angular and its core concepts.",
+      "name": "Spacecraft Structural Design",
+      "description": "Fundamentals of designing spacecraft structures and materials selection.",
       "course": "1236",
       "lessons": [
         {
           "_id": "L701",
-          "name": "Angular Introduction",
-          "description": "Introduction to Angular and its environment.",
+          "name": "Structural Materials",
+          "description": "Common materials used in spacecraft construction.",
           "module": "M301"
         },
         {
           "_id": "L702",
-          "name": "Angular Components",
-          "description": "Understanding Angular components and their lifecycle.",
+          "name": "Load and Stress Analysis",
+          "description": "Understanding forces acting on spacecraft structures.",
           "module": "M301"
         },
         {
           "_id": "L703",
-          "name": "Angular Services",
-          "description": "Building and using services in Angular.",
+          "name": "Lightweight Structural Design",
+          "description": "Optimizing spacecraft structures for weight reduction.",
           "module": "M301"
         }
       ]
     },
     {
       "_id": "M302",
-      "name": "Angular Components",
-      "description": "Understanding Angular components and their lifecycle.",
+      "name": "Spacecraft Structural Design",
+      "description": "Fundamentals of designing spacecraft structures and materials selection.",
       "course": "1236",
       "lessons": [
         {
           "_id": "L801",
-          "name": "Component Basics",
-          "description": "Introduction to Angular components.",
+          "name": "Structural Materials",
+          "description": "Common materials used in spacecraft construction.",
           "module": "M302"
         },
         {
           "_id": "L802",
-          "name": "Component Interaction",
-          "description": "Interaction between Angular components.",
+          "name": "Load and Stress Analysis",
+          "description": "Understanding forces acting on spacecraft structures.",
           "module": "M302"
         },
         {
           "_id": "L803",
-          "name": "Component Lifecycle",
-          "description": "Understanding the lifecycle of Angular components.",
+          "name": "Lightweight Structural Design",
+          "description": "Optimizing spacecraft structures for weight reduction.",
           "module": "M302"
         }
       ]
     },
     {
       "_id": "M303",
-      "name": "Angular Services",
-      "description": "Building and using services in Angular.",
+      "name": "Spacecraft Structural Design",
+      "description": "Fundamentals of designing spacecraft structures and materials selection.",
       "course": "1236",
       "lessons": [
         {
           "_id": "L901",
-          "name": "Service Basics",
-          "description": "Introduction to Angular services.",
+          "name": "Structural Materials",
+          "description": "Common materials used in spacecraft construction.",
           "module": "M303"
         },
         {
           "_id": "L902",
-          "name": "Dependency Injection",
-          "description": "Understanding dependency injection in Angular.",
+          "name": "Load and Stress Analysis",
+          "description": "Understanding forces acting on spacecraft structures.",
           "module": "M303"
         },
         {
           "_id": "L903",
-          "name": "Service Usage",
-          "description": "Using services in Angular applications.",
+          "name": "Lightweight Structural Design",
+          "description": "Optimizing spacecraft structures for weight reduction.",
           "module": "M303"
         }
       ]
     },
     {
       "_id": "M401",
-      "name": "Introduction to Flask",
-      "description": "Basic principles of Flask and its components.",
+      "name": "Fundamentals of Organic Chemistry",
+    "description": "Introduction to organic compounds and their reactions.",
       "course": "1237",
       "lessons": [
         {
           "_id": "L1001",
-          "name": "Flask Basics",
-          "description": "Introduction to Flask and its environment.",
+          "name": "Hydrocarbons and Functional Groups",
+        "description": "Understanding hydrocarbons and key functional groups in organic chemistry.",
           "module": "M401"
         },
         {
           "_id": "L1002",
-          "name": "Flask Routing",
-          "description": "Implementing routing in Flask applications.",
+          "name": "Stereochemistry",
+        "description": "Exploring isomerism and three-dimensional molecular structures.",
           "module": "M401"
         },
         {
           "_id": "L1003",
-          "name": "Flask Templates",
-          "description": "Using templates in Flask applications.",
+         "name": "Organic Reaction Mechanisms",
+        "description": "Studying reaction pathways and mechanisms in organic chemistry.",
           "module": "M401"
         }
       ]
     },
     {
       "_id": "M402",
-      "name": "Flask Routing",
-      "description": "Implementing routing in Flask applications.",
+      "name": "Fundamentals of Organic Chemistry",
+    "description": "Introduction to organic compounds and their reactions.",
       "course": "1237",
       "lessons": [
         {
           "_id": "L1101",
-          "name": "Routing Basics",
-          "description": "Introduction to routing in Flask.",
+          "name": "Hydrocarbons and Functional Groups",
+        "description": "Understanding hydrocarbons and key functional groups in organic chemistry.",
           "module": "M402"
         },
         {
           "_id": "L1102",
-          "name": "Dynamic Routing",
-          "description": "Implementing dynamic routing in Flask.",
+          "name": "Stereochemistry",
+        "description": "Exploring isomerism and three-dimensional molecular structures.",
           "module": "M402"
         },
         {
           "_id": "L1103",
-          "name": "Route Guards",
-          "description": "Implementing route guards in Flask.",
+          "name": "Organic Reaction Mechanisms",
+        "description": "Studying reaction pathways and mechanisms in organic chemistry.",
           "module": "M402"
         }
       ]
     },
     {
       "_id": "M403",
-      "name": "Flask and Databases",
-      "description": "Connecting Flask applications to databases.",
+      "name": "Fundamentals of Organic Chemistry",
+      "description": "Introduction to organic compounds and their reactions.",
       "course": "1237",
       "lessons": [
         {
           "_id": "L1201",
-          "name": "Database Basics",
-          "description": "Introduction to databases and their concepts.",
+          "name": "Hydrocarbons and Functional Groups",
+        "description": "Understanding hydrocarbons and key functional groups in organic chemistry.",
           "module": "M403"
         },
         {
           "_id": "L1202",
-          "name": "Connecting to Databases",
-          "description": "Connecting Flask applications to databases.",
+          "name": "Stereochemistry",
+        "description": "Exploring isomerism and three-dimensional molecular structures.",
           "module": "M403"
         },
         {
           "_id": "L1203",
-          "name": "CRUD Operations",
-          "description": "Performing CRUD operations with Flask and databases.",
+          "name": "Organic Reaction Mechanisms",
+        "description": "Studying reaction pathways and mechanisms in organic chemistry.",
           "module": "M403"
         }
       ]
